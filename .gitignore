@@ -1,0 +1,11 @@
+# never commit object files
+*.o
+*.so
+
+#don't commit main for this project
+main.c
+
+#dont commit test as its the test binary
+test
+
+.idea
